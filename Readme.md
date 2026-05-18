@@ -65,7 +65,7 @@ To ensure you are aware of all requirements, attend classes regularly and active
 
 Extend the Notepad application, built across Practices 5 to 8 (lab and homework problems combined), into a more capable WordPad-like editor. Your starting point is a functional application that already supports file operations, an `Edit` menu (undo, redo, cut, copy, paste, select all), text case transforms (uppercase, lowercase, capitalize, sentence case, swap case), rich text formatting (bold, italic, underline), find and replace, word frequency analysis, and a status bar with live word and line counts.
 
-You must implement both required features and at least three optional features of your choice.
+You must implement the required features. You may also implement bonus features listed below for extra credit.
 
 When you first open the project in CLion, edit the run configuration and set Working Directory to `$ProjectFileDir$` so that relative paths like `data/images/bold.svg` and `data/words.txt` resolve correctly. Otherwise the toolbar icons will not appear at runtime and the spell checker will report every word as misspelled.
 
@@ -94,11 +94,13 @@ Requirements:
 * Add a `Tools` > `Check Spelling...` menu item that re-runs the highlight pass over the whole document.
 * A word is misspelled if, after lowercasing and stripping non-alphabetic characters, it is not found in the word list.
 
+![Inline misspelling underlines](https://raw.githubusercontent.com/rachmiroff/images/refs/heads/main/auca/com-119/spring-2026/project/02.png)
+
 ---
 
-## Optional Features
+## Bonus Features
 
-Choose at least three from the table below. More is better.
+These features are optional. Implementing a lot of them well, may earn bonus credit; more is better.
 
 | # | Feature                        | Description                                                                                    |
 |---|--------------------------------|------------------------------------------------------------------------------------------------|
@@ -111,6 +113,8 @@ Choose at least three from the table below. More is better.
 | 7 | Syntax highlight               | Highlight C++ or Python keywords using `QSyntaxHighlighter`                                    |
 | 8 | Zoom                           | `View` > `Zoom In` / `Zoom Out` / `Reset Zoom` (`Ctrl++` / `Ctrl+-` / `Ctrl+0`)                |
 
+You can also add features beyond those listed in this table. Only exceptional work will be awarded bonus points, and only if the instructor's questions are answered correctly.
+
 ---
 
 ## Deliverables
@@ -121,7 +125,7 @@ By the project deadline, push your final code to your GitHub repository. During 
 2. Run the application and demonstrate all required and chosen optional features.
 3. Explain any class you added, any design decision you made.
 
-In addition, submit a `Notepad.md` file in your repository that describes your implementation: which optional features you chose, why, and how each one works at a high level.
+In addition, submit a `Notepad.md` file in your repository that describes your implementation: which bonus features (if any) you chose, why, and how each one works at a high level.
 
 ---
 
